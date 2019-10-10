@@ -1,4 +1,4 @@
-//#include "functions.h"
+#include "functions.h"
 #include <iostream>
 #include <conio.h>
 
