@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-	
+
     double a,b,result;
     char n;
     cout << "Insert a:";
@@ -28,8 +28,8 @@ int main(){
 	        result=division(a,b);
 	        break;
 	    default:
-	        cout << "Error\n";
+	        cout << endl << "Error" << endl;
 	    }
- 	cout << "Result =" << result;
+ 	cout << endl << "Result = " << result << endl;
     return(0);
 }
