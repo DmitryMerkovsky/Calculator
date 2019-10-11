@@ -14,18 +14,18 @@ int main(){
     cin >> b;
     cout << endl << "Choose operation < + - * / >:";
     cin >> n;
-	    switch (n){
+	   switch (n){
 	    case '-':
-	        minus(a,b);
+	        result=subtraction(a,b);
 	        break;
 	    case '+':
-	        plus(a,b);
+	        result=addition(a,b);
 	        break;
 	    case '*':
-	        multiply(a,b);
+	        result=multiplication(a,b);
 	        break;
 	    case '/':
-	        divide(a,b);
+	        result=division(a,b);
 	        break;
 	    default:
 	        cout << "Error\n";
