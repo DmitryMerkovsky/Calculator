@@ -8,4 +8,4 @@ main.o:main.cpp
 functions.o:functions.cpp
 	g++	-c functions.cpp
 clean:
-	rm	-rf	*.0 main
+	rm	-rf	*.0 main functions.o main.o
