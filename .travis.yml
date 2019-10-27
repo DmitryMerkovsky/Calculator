@@ -1,10 +1,14 @@
 language: cpp
+env:
+- a=5
+- b=5
+- oper=*
 script: 
 - make
 - cd root
 - ./main 
-- "5"
-- "*"
-- "5"
+- a
+- oper
+- b
 - cd /test
 - ./gtest
