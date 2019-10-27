@@ -3,5 +3,8 @@ script:
 - make
 - cd root
 - ./main
+- 5
+- *
+- 5
 - cd /test
 - ./gtest
