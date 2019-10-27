@@ -1,1 +1,7 @@
 language: cpp
+script: 
+- make
+- cd root
+- ./main
+- cd /test
+- ./gtest
