@@ -1,5 +1,5 @@
 language: cpp
 script: 
-- make
 - cd root
+- make
 - printf '5 \n 5 \n * \n' | ./main 
