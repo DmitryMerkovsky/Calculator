@@ -1,6 +1,5 @@
 language: cpp
 script: 
-- git submodule update --init googletest
 - make
 - cd root
 - printf '5 \n 5 \n * \n' | ./main 
