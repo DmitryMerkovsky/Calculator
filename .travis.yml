@@ -1,5 +1,9 @@
 language: cpp
 script: 
-- cd root
+- git submodule update --init googletest
 - make
+- cd root
 - printf '5 \n 5 \n * \n' | ./main 
+- cd ..
+- cd test
+- ./gtest
