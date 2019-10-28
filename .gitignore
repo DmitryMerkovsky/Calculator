@@ -1,4 +1,6 @@
 *.exe
 *.o
 main
-test/test
+test/gtest
+test/gtest.o
+test/calc.o
